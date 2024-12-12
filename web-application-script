@@ -1,0 +1,9 @@
+#
+if command -v docker > /dev/null 2>&1; then
+  echo "Your Docker version is $(docker --version)"
+else
+  echo "Docker is not installed. Installing Docker..."
+  sudo apt-get update
+  sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-p$
+fi
+
