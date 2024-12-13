@@ -10,3 +10,6 @@ COPY requirements.txt /app/requirements.txt
 #Copy application code to container
 COPY . .
 
+#Expose on port 5000
+EXPOSE 5000
+
