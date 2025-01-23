@@ -1,0 +1,35 @@
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family:  Arial
+}
+#btnContainer{
+    text-align: center;
+}
+
+.button{
+    padding:10px 20px;
+    font-size: 1em;
+    color: ghostwhite;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+#increaseBtn{
+    background-color: lightgreen;
+}
+#resetBtn{
+    background-color: black;
+}
+#decreaseBtn{
+    background-color: red;
+}
+
+#increaseBtn:hover{
+    background-color: darkgreen;
+}
+
+#decreaseBtn:hover{
+    background-color: darkred;
+}
